@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="de" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- 1. الأساسيات لمحركات البحث (SEO Core Tags) -->
+    <title>LOGINET - Personalvermittlung & Logistik in Bremen, Deutschland</title>
+    <meta name="description" content="loginet – Ihre Arbeitsvermittlung in Bremen, Deutschland. Spezialisiert auf Gabelstaplerfahrer, Transportdienstleistungen und Gebäudereinigung. Jetzt Stellenangebote entdecken!">
+    <meta name="keywords" content="Arbeitsvermittlung, Personalvermittlung Bremen, Logistik Jobs, Gabelstaplerfahrer, Transportdienstleistungen, Gebäudereinigung, loginet">
+    <meta name="robots" content="index, follow">
+    <meta name="author" content="LOGINET">
+    
+    <!-- 2. وسم الرابط الأصلي منعاً لتكرار المحتوى -->
+    <link rel="canonical" href="https://www.loginet-bremen.de/">
+
+    <!-- 3. وسم مشاركة منصات التواصل الاجتماعي (Open Graph / Facebook) -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.loginet-bremen.de/">
+    <meta property="og:title" content="LOGINET - Arbeitsvermittlung in Deutschland">
+    <meta property="og:description" content="Wir verbinden qualifizierte Fachkräfte und Arbeiter mit Top-Arbeitgebern in Deutschland.">
+    <meta property="og:image" content="Assets/logi images/logi logo official.jpeg">
+
+    <!-- 4. البيانات المنظمة لمزودي الخدمات المحلية (Schema.org Structured Data) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "EmploymentAgency",
+      "name": "LOGINET",
+      "image": "Assets/logi images/logi logo official.jpeg",
+      "telephone": "+4915226345917",
+      "email": "loginet777@gmail.com",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Bromberger Str. 193",
+        "addressLocality": "Bremen",
+        "postalCode": "28237",
+        "addressCountry": "DE"
+      },
+      "url": "https://www.loginet-bremen.de/"
+    }
+    </script>
+    
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    
+    <style>
+        :root {
+            --brand-blue: #0f4c81;
+            --brand-green: #2a9d8f;
+            --light-green: #eef7f6;
+            --whatsapp-green: #25d366;
+        }
+
+        .bg-brand-blue { background-color: var(--brand-blue) !important; }
+        .text-brand-blue { color: var(--brand-blue) !important; }
+        .text-brand-green { color: var(--brand-green) !important; }
+        
+        .border-top-green { border-top: 4px solid var(--brand-green) !important; }
+        .border-top-blue { border-top: 4px solid var(--brand-blue) !important; }
+
+        /* تغيير لون عناصر القائمة إلى الأخضر عند الوقوف بالماوس */
+        .navbar-nav .nav-link {
+            transition: color 0.3s ease;
+        }
+        .navbar-nav .nav-link:hover {
+            color: var(--brand-green) !important;
+        }
+
+        .custom-card {
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+        }
+        .custom-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 20px rgba(0,0,0,0.1) !important;
+        }
+
+        /* زر الواتساب */
+        .btn-whatsapp {
+            background-color: var(--whatsapp-green);
+            color: white;
+            font-weight: 600;
+            transition: background-color 0.3s ease, transform 0.2s ease;
+        }
+        .btn-whatsapp:hover {
+            background-color: #1eb857;
+            color: white;
+            transform: scale(1.03);
+        }
+
+        /* تعديل 1: تكبير حجم الشعار في الأعلى */
+    /* تعديل الشعار ليكون واضحاً وكاملاً دون قطع */
+.navbar-brand img {
+    width: auto;             /* تكييف العرض تلقائياً */
+    height: 65px;            /* التحكم في ارتفاع الشعار */
+    object-fit: contain;     /* احتواء الصورة بالكامل داخل الأبعاد دون قص */
+    background-color: #fff;  /* خلفية بيضاء لإبراز الشعار */
+    padding: 3px;            /* مسافة داخلية صغيرة لحماية أطراف الشعار */
+}
+
+        /* تعديل 2: ضبط صورة المدير وتوسيطها بالكامل داخل الدائرة دون قطع الرأس */
+        .img-manager-circle {
+            width: 160px;
+            height: 160px;
+            object-fit: cover;
+            object-position: top center; /* محاذاة التركيز على الجزء العلوي والمنتصف */
+        }
+    </style>
+</head>
+<body class="bg-light">
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-brand-blue sticky-top shadow-sm py-2">
+        <div class="container">
+            <a class="navbar-brand d-flex align-items-center" href="#">
+                <!-- تم تكبير الشعار وتنسيقه -->
+                <img src="Assets/logi images/logi logo official.jpeg" alt="LOGINET Logo Arbeitsvermittlung Bremen" class="rounded me-3 border border-2 border-white shadow-sm">
+                <span class="fw-bold tracking-wide fs-4">LOGINET</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto align-items-lg-center">
+                    <li class="nav-item"><a class="nav-link text-white fw-semibold" href="#ueber-uns">Über uns</a></li>
+                    <li class="nav-item"><a class="nav-link text-white fw-semibold" href="#dienstleistungen">Dienstleistungen</a></li>
+                    <li class="nav-item"><a class="nav-link text-white fw-semibold" href="#team">Geschäftsführung</a></li>
+                    <li class="nav-item"><a class="nav-link text-white fw-semibold" href="#kontakt">Kontakt</a></li>
+                    <!-- زر واتساب -->
+                    <li class="nav-item ms-lg-3 mt-2 mt-lg-0">
+                        <a href="https://wa.me/4915226345917" target="_blank" class="btn btn-whatsapp btn-sm px-3 py-2 rounded-pill d-inline-flex align-items-center">
+                            <i class="bi bi-whatsapp me-2"></i> WhatsApp
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Header / About Section -->
+    <header id="ueber-uns" class="py-5 bg-white border-bottom">
+        <div class="container">
+            <div class="row align-items-center g-4">
+                <div class="col-lg-5 text-center">
+                    <img src="Assets/logi images/person 1.jpg" alt="LOGINET Team Bremen Personalvermittlung" class="img-fluid rounded-4 shadow border border-3 border-light">
+                </div>
+                <div class="col-lg-7">
+                    <span class="badge px-3 py-2 rounded-pill mb-2 text-white" style="background-color: var(--brand-green);">Willkommen</span>
+                    <h1 class="fw-bold mb-3 text-brand-blue">Bei LOGINET</h1>
+                    <p class="text-secondary lead fs-6">
+                        ansässig in der historischen Hansestadt Bremen, Deutschlands Logistik-Drehscheibe – sind wir uns bewusst, dass der Erfolg in der Lieferkette bei den Menschen beginnt.
+                    </p>
+                    <p class="text-secondary small">
+                        Dank unseres strategisch günstigen Standorts inmitten europäischer Häfen und wichtiger Verkehrsknotenpunkte sind wir darauf spezialisiert, die Logistik- und Transportbranche mit qualifizierten Fachkräften zu versorgen, die die Produktivität steigern.
+                    </p>
+                    <p class="text-secondary small mb-4">
+                        Wir arbeiten nach höchsten Maßstäben deutscher Präzision und verbinden ein tiefes Verständnis für die Komplexität des Arbeitsmarktes mit den Anforderungen des operativen Tagesgeschäfts.
+                    </p>
+                    <a href="https://wa.me/4915226345917" target="_blank" class="btn btn-whatsapp px-4 py-2 rounded-pill shadow-sm d-inline-flex align-items-center">
+                        <i class="bi bi-whatsapp me-2 fs-5"></i> Jetzt per WhatsApp kontaktieren
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content / Services Section -->
+    <main class="py-5" style="background-color: var(--light-green);">
+        <div class="container" id="dienstleistungen">
+            <div class="text-center mb-5">
+                <h2 class="fw-bold text-brand-blue">Unsere Dienstleistungen</h2>
+                <div class="mx-auto rounded" style="width: 60px; height: 3px; background-color: var(--brand-green);"></div>
+            </div>
+            
+            <div class="row g-4">
+                <!-- Service 1 -->
+                <div class="col-md-4">
+                    <div class="card custom-card h-100 shadow-sm border-0 border-top-green rounded-3">
+                        <img src="Assets/logi images/stapell.jpeg" class="card-img-top rounded-top-3" alt="Gabelstaplerfahrer Personalvermittlung Bremen" style="height: 200px; object-fit: cover;">
+                        <div class="card-body">
+                            <h3 class="h5 card-title fw-bold text-brand-blue">Gabelstaplerfahrer</h3>
+                            <p class="card-text text-secondary small">
+                                Wir sind ein spezialisiertes Personaldienstleistungsunternehmen, das Unternehmen mit den qualifiziertesten und zertifizierten Gabelstaplerfahrern versorgt. Strenge Auswahlverfahren garantieren Fachkräfte mit Praxiserfahrung.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Service 2 -->
+                <div class="col-md-4">
+                    <div class="card custom-card h-100 shadow-sm border-0 border-top-blue rounded-3">
+                        <img src="Assets/logi images/truck.jpg" class="card-img-top rounded-top-3" alt="Transportdienstleistungen und LKW Fahrer" style="height: 200px; object-fit: cover;">
+                        <div class="card-body">
+                            <h3 class="h5 card-title fw-bold text-brand-blue">Transportdienstleistungen</h3>
+                            <p class="card-text text-secondary small">
+                                Unser Unternehmen ist darauf spezialisiert, den Logistiksektor mit dem Management und der Bereitstellung sämtlicher intelligenter Transportdienstleistungen zu versorgen. Wir verbinden Sie mit LKW-Fahrern.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Service 3 -->
+                <div class="col-md-4">
+                    <div class="card custom-card h-100 shadow-sm border-0 border-top-green rounded-3">
+                        <img src="Assets/logi images/cleaning.jpg" class="card-img-top rounded-top-3" alt="Gebäudereinigung Personalvermittlung" style="height: 200px; object-fit: cover;">
+                        <div class="card-body">
+                            <h3 class="h5 card-title fw-bold text-brand-blue">Gebäudereinigung</h3>
+                            <p class="card-text text-secondary small">
+                                Wir sind ein etabliertes Dienstleistungsunternehmen mit langjähriger Expertise. Unser Fokus liegt auf der Bereitstellung von zuverlässigem Reinigungspersonal für Unternehmen jeder Größe.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Leadership Section -->
+            <div id="team" class="row mt-5 pt-3">
+                <div class="col-12">
+                    <div class="card shadow-sm border-0 p-4 rounded-3 border-start border-4 border-primary">
+                        <div class="row align-items-center g-4">
+                            <div class="col-md-3 text-center">
+                                <!-- صورة المدير المعدلة مع خاصية object-position لإظهار الرأس بوضوح -->
+                                <img src="Assets/logi images/hanafy official.jpg" class="rounded-circle img-fluid shadow-sm p-1 bg-white border border-2 border-success img-manager-circle" alt="Mohamed Elhanafy - Geschäftsführer LOGINET">
+                            </div>
+                            <div class="col-md-9">
+                                <h3 class="h4 fw-bold mb-1 text-brand-blue">Mohamed Elhanafy</h3>
+                                <p class="text-brand-green fw-bold mb-2">Geschäftsführer</p>
+                                <p class="text-secondary small mb-0">
+                                    Unser Unternehmen wird von einer erfahrenen Führungspersönlichkeit geleitet, die für höchste Effizienz und Zuverlässigkeit in der Personalvermittlung steht. Mit langjähriger Expertise verbinden wir namhafte Betriebe mit qualifizierten Fachkräften.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer id="kontakt" class="bg-brand-blue text-white py-5">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-md-6">
+                    <h4 class="h5 fw-bold mb-3 text-brand-green">Kontakt</h4>
+                    <p class="mb-2">
+                        <strong>Tel / WhatsApp:</strong> 
+                        <a href="https://wa.me/4915226345917" target="_blank" class="text-white text-decoration-none hover-green">
+                            +49 152 26345917 <i class="bi bi-whatsapp text-success ms-1"></i>
+                        </a>
+                    </p>
+                    <p class="mb-2"><strong>Tel:</strong> +49 176 80658339</p>
+                    <p class="mb-0"><strong>E-Mail:</strong> loginet777@gmail.com</p>
+                </div>
+                <div class="col-md-6">
+                    <h4 class="h5 fw-bold mb-3 text-brand-green">Standort</h4>
+                    <p class="mb-0">Bromberger Str. 193,<br>28237 Bremen, Deutschland</p>
+                </div>
+            </div>
+            <hr class="my-4 border-light opacity-25">
+            <div class="text-center text-white-50 small">
+                &copy; 2026 LOGINET. Alle Rechte vorbehalten.
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap 5 JS Bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/bootstrap.bundle.min.js"></script>
+</body>
+</html>
